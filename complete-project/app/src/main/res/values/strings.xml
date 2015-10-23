@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">More Essentials</string>
+    <string name="title_lesson_detail">Lesson Detail</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_record">Create Record</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_map">Show Map</string>
+</resources>
