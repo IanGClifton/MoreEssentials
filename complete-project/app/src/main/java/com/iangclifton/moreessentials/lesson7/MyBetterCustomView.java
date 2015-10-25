@@ -10,7 +10,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Build;
 import android.support.v4.view.GestureDetectorCompat;
-import android.support.v4.view.MotionEventCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -212,6 +211,16 @@ public class MyBetterCustomView extends View implements GestureDetector.OnGestur
 //        mGestureDetector.setOnDoubleTapListener(this);
     }
 
+    /**
+     * Reads the custom attributes that we care about
+     *
+     * If you need a more detailed example of reading attributes, take a look at the example in
+     * the book Android User Interface Design, Second Edition. Appendix B, Listing B.10 includes
+     * reading from all types of attributes and is available via GitHub:
+     * https://github.com/IanGClifton/auid2/blob/master/appendixb/listing_b.10.txt
+     *
+     * @param attrs AttributeSet from the constructor
+     */
     private void setAttributes(AttributeSet attrs) {
         TypedArray customAttrs = getContext().obtainStyledAttributes(attrs, R.styleable.MyBetterCustomView);
 
