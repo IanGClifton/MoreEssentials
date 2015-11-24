@@ -21,7 +21,7 @@ public class Person {
         mName = name;
     }
 
-    public String getName() {
+    synchronized public String getName() {
         return mName;
     }
 
